@@ -75,7 +75,7 @@ int main()
     {
         cin>>arr[i];
     }
-
+       // function for mergesort
      mergesort(arr, 0, n-1);
 
       cout << "Sorted array: ";
