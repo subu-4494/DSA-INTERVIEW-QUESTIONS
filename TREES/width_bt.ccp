@@ -1,4 +1,4 @@
-//width of a binary treee or doing a indextion of each level of binary treee
+// max width of a binary treee or doing a indextion of each level of binary treee
 
 class Solution {
 public:
@@ -32,3 +32,28 @@ public:
        return ans;
     }
 };
+
+
+
+
+Input: [1,3,2,5,3,null,9]
+
+Tree:
+
+            1 `0
+          /   \
+         3`0   2 `1                                // `nums are indexes   
+        /   \   /  \
+       5`0 3`1 `2  9`3
+
+
+
+
+
+
+
+
+       Level 0: [1]                  → pos = 0 → width = 1
+Level 1: [3, 2]              → pos = 0, 1 → width = 2
+Level 2: [5, 3, _, 9]        → pos = 0, 1, -, 3 → width = 3 - 0 + 1 = 4
+
