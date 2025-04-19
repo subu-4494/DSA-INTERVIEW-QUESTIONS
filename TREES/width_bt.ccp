@@ -16,7 +16,7 @@ public:
             }
 
              v[b].push_back(c);
-           if(a->left) q.push({a->left,b+1,2*c});    // this 2*c and @*c+1 did a indextion of nodes at certain level
+           if(a->left) q.push({a->left,b+1,2*c});    // this 2*c and 2*c+1 did a indextion of nodes at certain level
           if(a->right)  q.push({a->right,b+1,2*c+1});
         }
 
