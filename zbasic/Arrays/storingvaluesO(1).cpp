@@ -37,7 +37,8 @@
 
 // The remaining part (after the modulus operation) gives the original value nums[i].
 
-
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
